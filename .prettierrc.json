@@ -1,0 +1,40 @@
+{
+  "tabWidth": 2,
+  "requirePragma": false,
+  "insertPragma": false,
+  "proseWrap": "always",
+  "embeddedLanguageFormatting": "auto",
+  "endOfLine": "auto",
+  "overrides": [
+    {
+      "files": "src/app/base.css",
+      "options": {
+        "singleQuote": true,
+        "printWidth": 70
+      }
+    },
+    {
+      "files": [
+        "vite.config.ts",
+        "tailwind.config.js",
+        "postcss.config.js",
+        "src/**/*.tsx",
+        "src/**/*.ts"
+      ],
+      "options": {
+        "singleQuote": true,
+        "jsxSingleQuote": true,
+        "useTabs": false,
+        "semi": false,
+        "trailingComma": "none",
+        "singleAttributePerLine": false,
+        "htmlWhitespaceSensitivity": "css",
+        "arrowParens": "avoid",
+        "bracketSpacing": true,
+        "quoteProps": "as-needed",
+        "bracketSameLine": false,
+        "printWidth": 80
+      }
+    }
+  ]
+}
